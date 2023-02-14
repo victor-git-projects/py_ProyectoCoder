@@ -28,6 +28,8 @@ def estudiantes(request):
  #   documentoDeTexto = f"--> Curso: {curso.nombre} comision: {curso.comision}"
  #   return HttpResponse(documentoDeTexto)
 
+def cursoFormulario(request):
+    return render(request, 'AppCoder/cursoFormulario.html')
 
 
 
