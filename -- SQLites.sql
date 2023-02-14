@@ -1,2 +1,2 @@
 -- SQLites
-SELECT * from AppCoder_profesor
+SELECT * from AppCoder_curso
